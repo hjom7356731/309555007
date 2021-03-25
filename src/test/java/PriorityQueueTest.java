@@ -11,8 +11,8 @@ class PriorityQueueTest {
     private static Stream<Arguments> testArgs() {
         return Stream.of(
             Arguments.of(
-//                 new int[]{50, 20, 40, 30, 10},
-                new int[]{60, 20, 40, 30, 10},
+                new int[]{50, 20, 40, 30, 10},
+//                 new int[]{60, 20, 40, 30, 10},
                 new int[]{10, 20, 30, 40, 50}
             ),
             Arguments.of(
